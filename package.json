@@ -19,5 +19,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://kimshako.github.io/Cedars-Web/"
+  "homepage": "https://kimshako.github.io/Cedars-Web"
 }
