@@ -1,0 +1,29 @@
+.Hero {
+  background-color: #383838;
+  min-height: 100vh;
+  padding: 10px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hero > .logo {
+  margin-bottom: 40px;
+}
+
+.Hero > .description {
+  color: white;
+  max-width: 500px;
+  line-height: 150%;
+}
+
+.Hero > .buttons {
+  margin-top: 40px;
+}
+
+.Hero > .buttons > * {
+  margin: 0 6px;
+}

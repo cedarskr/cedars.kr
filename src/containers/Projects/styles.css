@@ -1,0 +1,7 @@
+.Projects > .Project {
+  border-bottom: solid 1px #CCC;
+}
+
+.Projects > .Project:last-child {
+  border-bottom: none;
+}

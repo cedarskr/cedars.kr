@@ -1,0 +1,21 @@
+.Support {
+  background-color: #383838;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 40px 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Support > .title {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.Support > .buttons {
+
+}

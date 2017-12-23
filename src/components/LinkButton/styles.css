@@ -1,0 +1,7 @@
+.LinkButton {
+  color: white;
+  padding: 6px 12px;
+  border: solid 1px white;
+  border-radius: 4px;
+  text-decoration: inherit;
+}

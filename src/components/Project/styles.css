@@ -1,0 +1,55 @@
+.Project {
+  min-height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .Project {
+    padding: 10px;
+    min-height: auto;
+    flex-direction: column;
+  }
+}
+
+.Project > .left {
+  margin-right: 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+@media (max-width: 700px) {
+  .Project > .left {
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.Project > .left > .title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.Project > .left > .description {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.Project > .phone {
+  display: flex;
+  outline: solid 1px #CCC;
+}
