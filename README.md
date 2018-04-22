@@ -9,5 +9,9 @@ yarn start
 
 ## Deploy
 
-1. `yarn build`
-2. VULTR 서버 매뉴얼 업로드
+```
+brew install awscli
+aws configure
+yarn build 
+yarn deploy
+```
