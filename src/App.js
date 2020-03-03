@@ -1,5 +1,4 @@
 import React from 'react'
-import 'es6-promise/auto'
 
 import { Hero, Projects, Support } from './containers'
 import './App.css'
