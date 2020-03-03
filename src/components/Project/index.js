@@ -1,9 +1,10 @@
 import React from 'react'
+import Carousel from 'nuka-carousel'
 
 import { DownloadButton } from '..'
 import './styles.css'
 
-const Project = ({ app }) => {
+function Project({ app }) {
   const descriptions = app.description && app.description.split('\n')
 
   return (
@@ -26,9 +27,11 @@ const Project = ({ app }) => {
 
       {app.screenshotUrls && (
         <div className="phone">
-          {app.screenshotUrls && app.screenshotUrls.map((url, i) => (
-            i === 0 ? <img key={i} src={url} alt="Screenshot" /> : null
-          ))}
+          <Carousel width="392px" autoplay={true} withoutControls={true}>
+            {app.screenshotUrls && app.screenshotUrls.map((url, i) => (
+              <img key={i} src={url} alt="Screenshot" />
+            ))}
+          </Carousel>
         </div>
       )}
     </div>
