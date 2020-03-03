@@ -3,15 +3,13 @@
 ## Start development
 
 ```
-yarn install
+yarn
 yarn start
 ```
 
 ## Deploy
 
 ```
-brew install awscli
-aws configure
 yarn build 
 yarn deploy
 ```
